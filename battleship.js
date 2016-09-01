@@ -29,7 +29,7 @@ for (i = 0; i < cols; i++) {
 		var square = document.createElement("div");
 		gameBoardContainer.appendChild(square);
 
-    // give each div element a unique id based on its row and column, like "s00"
+    // gives each div element a unique id based on its row and column, like "s00"
 		square.id = 's' + j + i;
 		square.className = "boardSquare";
 
